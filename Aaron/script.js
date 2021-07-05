@@ -32,7 +32,7 @@ const callAlert = () => {
 
     Swal.fire({
     // title: 'Codefactory!',
-    text: 'A place where you become a Front End Developer',
+    text: 'A place where you become a Front End Developer 👨‍💻',
     // icon: 'info',
     width: 400,
     confirmButtonColor: "#8C181B",
