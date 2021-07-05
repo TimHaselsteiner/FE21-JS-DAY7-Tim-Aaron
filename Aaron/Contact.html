@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT | CodeReview Aaron Weber</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- START HEADER -->
+    <header class="header">
+        <div class="container">
+            <div class="header__left">
+                <p>Aaron Weber - Front End Developer</p>
+            </div>
+            <div class="header__right"><img class="logo" src="img\logo.png" alt=""></div>
+        </div>
+    </header>
+    <!-- END HEADER -->
+
+    <!-- START NAV -->
+    <nav class="main-nav">
+        <div class="container">
+            <ul class="main-nav__list">
+                <li class="main-nav__item"><a href="index.html" class="main-nav__link">Home</a></li>
+                <li class="main-nav__item"><a href="Blog.html" class="main-nav__link">Blog</a></li>
+                <li class="main-nav__item"><a href="About.html" class="main-nav__link">About me</a></li>
+                <li class="main-nav__item"><a href="Contact.html" class="main-nav__link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- END NAV -->
+
+    <!-- START CONTENT -->
+    <main>
+        <div class="container">
+            <!-- START SECTION 1 -->
+            <div class="spacer" style="height:5vw"></div>
+            <section class="form">
+
+                <form action="">
+
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:200px"></textarea>
+
+                    <input onclick="alert('Danke für deine Nachricht!')" type="submit" value="Submit">
+                </form>
+
+            </section>
+            <!-- END SECTION 2 -->
+            <div class="spacer" style="height:5vw"></div>
+        </div>
+    </main>
+    <!-- END CONTENT -->
+
+    <!-- START FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <img class="logo" src="img\logo.png" alt="">
+            <p>Aaron Weber - CodeFactory2021</p>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+
+</body>
+
+</html>

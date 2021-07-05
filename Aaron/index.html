@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aarons first Code Review | Html & CSS">
+    <title>HOME | CodeReview Aaron Weber</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- SLIDER CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <!-- START HEADER -->
+    <header class="header">
+        <div class="container">
+            <div class="header__left">
+                <p>Aaron Weber - Front End Developer</p>
+            </div>
+            <div class="header__right"><img class="logo" src="img\logo.png" alt=""></div>
+        </div>
+    </header>
+    <!-- END HEADER -->
+
+    <!-- START NAV -->
+    <nav class="main-nav">
+        <div class="container">
+            <ul class="main-nav__list">
+                <li class="main-nav__item"><a href="index.html" class="main-nav__link">Home</a></li>
+                <li class="main-nav__item"><a href="Blog.html" class="main-nav__link">Blog</a></li>
+                <li class="main-nav__item"><a href="About.html" class="main-nav__link">About me</a></li>
+                <li class="main-nav__item"><a href="Contact.html" class="main-nav__link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- END NAV -->
+
+    <!-- START CONTENT -->
+    <main>
+        <div class="container">
+            <!-- START SECTION 1 -->
+
+            <section class="heading-1">
+                <h1>This is Aarons first Code Review</h1>
+            </section>
+
+            <!-- Slider main container -->
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <article class="full-width">
+                            <a href="Blog.html" class="article-link">
+                                <div class="article__top"><img class="article__img" height="200" width="200"
+                                        src="img\Phone.png" alt="Smartphone">
+                                </div>
+                                <div class="article__bottom">
+                                    <h2>Mobile first approach wishfully awaited by all CodeFactory Students</h2>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="full-width">
+                            <a href="Blog.html" class="article-link">
+                                <div class="article__top"><img class="article__img" height="200" width="200"
+                                        src="https://images.unsplash.com/photo-1495020689067-958852a7765e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                                        alt="Smartphone">
+                                </div>
+                                <div class="article__bottom">
+                                    <h2>News Slide 2</h2>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="full-width">
+                            <a href="Blog.html" class="article-link">
+                                <div class="article__top"><img class="article__img" height="200" width="200"
+                                        src="https://images.unsplash.com/photo-1560177112-fbfd5fde9566?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                                        alt="Smartphone">
+                                </div>
+                                <div class="article__bottom">
+                                    <h2>News Slide 3</h2>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <!-- END SECTION 1 -->
+            <!-- START SECTION 2 -->
+            <section class="articles">
+                <article class="full-width">
+                    <a href="Blog.html" class="article-link">
+                        <div class="article__top"><img class="article__img" height="200" width="200" src="img\Phone.png"
+                                alt="Smartphone">
+                        </div>
+                        <div class="article__bottom">
+                            <h2>Mobile first approach wishfully awaited by all CodeFactory Students</h2>
+                        </div>
+                    </a>
+                </article>
+                <article class="half-width">
+                    <a href="Blog.html" class="article-link">
+                        <div class="article__top"><img class="article__img" height="200px" width="200"
+                                src="img\Debit_card_ATM.jpg" alt="Debit Card"></div>
+                        <div class="article__bottom">
+                            <h2>How coding can increase your income</h2>
+                        </div>
+                    </a>
+                </article>
+                <article class="half-width">
+                    <a href="Blog.html" class="article-link">
+                        <div class="article__top"><img height="200" width="200" class="article__img"
+                                src="img\Taxify-Scooters.jpg" alt="E-Scooter">
+                        </div>
+                        <div class="article__bottom">
+                            <h2>Everyone hates these scooter, find out why</h2>
+                        </div>
+                    </a>
+                </article>
+            </section>
+            <!-- END SECTION 2 -->
+        </div>
+    </main>
+    <!-- END CONTENT -->
+
+    <!-- START FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <img class="logo" src="img\logo.png" alt="">
+            <p>Aaron Weber - CodeFactory2021</p>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+
+    <!-- SLIDER JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
