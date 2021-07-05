@@ -53,9 +53,9 @@ p + .logo {
     margin: 2em;
 }
 
-article + article {
+/* article + article {
     margin-top: 1.5em;
-}
+} */
 
 .article__bottom {
     background-color: #41414215;
