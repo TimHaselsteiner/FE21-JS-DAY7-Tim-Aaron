@@ -1,3 +1,4 @@
+// INITIALIZE SWIPER
 const swiper = new Swiper('.swiper-container', {
     // Optional parameters
     direction: 'horizontal',
@@ -24,3 +25,24 @@ const swiper = new Swiper('.swiper-container', {
       el: '.swiper-scrollbar',
     },
   });
+
+
+// FUNCTION FOR ALERT BUTTON
+const callAlert = () => {
+
+    Swal.fire({
+    // title: 'Codefactory!',
+    text: 'A place where you become a Front End Developer',
+    // icon: 'info',
+    width: 400,
+    confirmButtonColor: "#8C181B",
+    confirmButtonText: 'Ok, got it!',
+    imageUrl: 'img/logo.png',
+    imageWidth: 250,
+    imageHeight: 86,
+    imageAlt: 'Custom image',
+  })
+
+}
+
+document.getElementById("cf-logo").addEventListener("click", callAlert);

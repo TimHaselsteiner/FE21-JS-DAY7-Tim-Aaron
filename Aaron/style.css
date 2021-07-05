@@ -45,6 +45,10 @@ header p {
     margin-bottom: 1.5em;
 }
 
+#cf-logo {
+    cursor: pointer;
+}
+
 .logo + p {
     margin-top: 1.5em;
 }
@@ -70,6 +74,12 @@ p + .logo {
 .article-link {
     text-decoration: none;
 }
+
+
+article{
+    transition: 1000ms;
+}
+
 
 article:hover{
     filter: grayscale(100%);
